@@ -1,5 +1,5 @@
 # My ZSH config
-After using Oh My Zsh, I now prefer to keep things simple and remove bloat by manually installing only the plugins I need day-to-day.
+After using Oh My Zsh for some time, I now prefer to keep things simple and just manually install the plugins I use day-to-day.
 
 Screenshot:
 
