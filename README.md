@@ -8,6 +8,11 @@ Screenshot:
 Includes:
  - Custom prompt
 
+Install Zsh with Homebrew
+```
+brew install zsh
+```
+
 Git clone the following plugins to `~/.zsh/` folder:
  - [git-prompt.zsh](https://github.com/woefe/git-prompt.zsh): Displays git status in prompt
  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
