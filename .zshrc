@@ -30,6 +30,7 @@ alias mv='mv -i'
 alias rm='rm -i'
 alias ll='ls -la'
 
+alias localip="ifconfig getifaddr en0" # or en1 - check your specific device
 alias publicip="curl ifconfig.co/json"
 
 # Plugins
