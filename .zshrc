@@ -11,6 +11,10 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+if [[ "$TERM" == "xterm-ghostty" ]]; then
+    export TERM=xterm-256color
+fi
+
 # Begin add line between prompts
 function precmd() {
     # Print a newline before the prompt, unless it's the
