@@ -34,7 +34,7 @@ alias localip="ifconfig getifaddr en0" # or en1 - check your specific device
 alias publicip="curl ifconfig.co/json"
 
 # Plugins
-source ~/.zsh/git-prompt/git-prompt.zsh
+source ~/.zsh/git-prompt.zsh/git-prompt.zsh
 PROMPT='%{$fg[blue]%}%n%{$reset_color%}@%{$fg[blue]%}%m%  %{$fg[cyan]%}%~%{$reset_color%} $(gitprompt)'
 PROMPT+='%(?.%(!.%F{white}❯%F{yellow}❯%F{red}.%F{blue}❯%F{cyan}❯%F{green})❯.%F{red}❯❯❯)%f '
 RPROMPT=''
